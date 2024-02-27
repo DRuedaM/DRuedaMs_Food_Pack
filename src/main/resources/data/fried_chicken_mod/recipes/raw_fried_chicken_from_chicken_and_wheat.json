@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "food",
+  "pattern": [
+    " CW",
+    "   ",
+    "   "
+  ],
+  "key": {
+    "C": {
+      "item": "minecraft:chicken"
+    },
+    "W": {
+      "item": "minecraft:wheat"
+    }
+  },
+  "result": {
+    "item": "fried_chicken_mod:raw_fried_chicken",
+    "count": 4
+  }
+}
