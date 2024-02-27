@@ -1,6 +1,7 @@
 package es.druedam.friedchicken;
 
 import com.mojang.logging.LogUtils;
+import es.druedam.friedchicken.item.ModCreativeModTabs;
 import es.druedam.friedchicken.item.ModItems;
 import net.minecraft.client.Minecraft;
 import net.minecraft.world.item.CreativeModeTabs;
@@ -29,6 +30,7 @@ public class FriedChickenMod
     public FriedChickenMod()
     {
         IEventBus modEventBus = FMLJavaModLoadingContext.get().getModEventBus();
+        ModCreativeModTabs.register(modEventBus);
         ModItems.register(modEventBus);
 
 
@@ -54,6 +56,7 @@ public class FriedChickenMod
         if(event.getTabKey() == CreativeModeTabs.INGREDIENTS)
         {
             event.accept(ModItems.FRIED_CHICKEN);
+            event.accept(ModItems.RAW_FRIED_CHICKEN);
         }
     }
 

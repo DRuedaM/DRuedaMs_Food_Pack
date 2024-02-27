@@ -15,6 +15,9 @@ public class ModItems
     public static final RegistryObject<Item> FRIED_CHICKEN = ITEMS.register("fried_chicken",
             () -> new Item(new Item.Properties()));
 
+    public static final RegistryObject<Item> RAW_FRIED_CHICKEN = ITEMS.register("raw_fried_chicken",
+            () -> new Item(new Item.Properties()));
+
     public static void register(IEventBus eventBus)
     {
         ITEMS.register(eventBus);
