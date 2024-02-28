@@ -64,6 +64,7 @@ public class FoodPackMod
             event.accept(ModItems.CHEESE);
             event.accept(ModItems.CHOCOLATE_TABLE);
             event.accept(ModItems.CHOCOLATE_MILKSHAKE);
+            event.accept(ModItems.BOCATA_LOMO_QUESO);
         }
     }
 

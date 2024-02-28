@@ -19,10 +19,10 @@ public class ModFoods
                     500), 1f).build();
 
     public static final FoodProperties CAMPURRIANA = new FoodProperties.Builder().nutrition(3).
-            saturationMod(0.2f).build();
+            saturationMod(0.2f).fast().build();
 
     public static final FoodProperties CROQUETTE = new FoodProperties.Builder().nutrition(3).
-            saturationMod(0.4f).meat().build();
+            saturationMod(0.4f).meat().fast().build();
 
     public static final FoodProperties STRAWBERRY = new FoodProperties.Builder().nutrition(2).
             saturationMod(0.1f).fast().effect(() -> new MobEffectInstance(MobEffects.DAMAGE_RESISTANCE, 500), 0.2f).build();
@@ -34,6 +34,9 @@ public class ModFoods
             saturationMod(0.35f).build();
 
     public static final FoodProperties CHOCOLATE_MILKSHAKE = new FoodProperties.Builder().nutrition(2).
+            saturationMod(0.5f).build();
+
+    public static final FoodProperties BOCATA_LOMO_QUESO = new FoodProperties.Builder().nutrition(8).
             saturationMod(0.5f).build();
 
 

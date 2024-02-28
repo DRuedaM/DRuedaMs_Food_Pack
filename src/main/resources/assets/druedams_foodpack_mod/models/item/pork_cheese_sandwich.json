@@ -1,0 +1,6 @@
+{
+  "parent": "item/generated",
+  "textures": {
+    "layer0": "druedams_foodpack_mod:item/pork_cheese_sandwich"
+  }
+}

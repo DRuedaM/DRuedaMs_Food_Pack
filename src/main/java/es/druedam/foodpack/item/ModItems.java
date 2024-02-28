@@ -39,6 +39,9 @@ public class ModItems
     public static final RegistryObject<Item> CHOCOLATE_MILKSHAKE = ITEMS.register("chocolate_milkshake",
             () -> new Item(new Item.Properties().food(ModFoods.CHOCOLATE_MILKSHAKE)));
 
+    public static final RegistryObject<Item> BOCATA_LOMO_QUESO = ITEMS.register("pork_cheese_sandwich",
+            () -> new Item(new Item.Properties().food(ModFoods.BOCATA_LOMO_QUESO)));
+
 
     public static void register(IEventBus eventBus)
     {

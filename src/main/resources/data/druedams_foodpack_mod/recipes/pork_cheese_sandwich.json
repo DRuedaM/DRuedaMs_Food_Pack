@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "food",
+  "pattern": [
+    "QCP"
+  ],
+  "key": {
+    "Q": {
+      "item": "druedams_foodpack_mod:cheese"
+    },
+    "C": {
+      "item": "minecraft:porkchop"
+    },
+    "P": {
+      "item": "minecraft:bread"
+    }
+  },
+  "result": {
+    "item": "druedams_foodpack_mod:pork_cheese_sandwich",
+    "count": 1
+  }
+}
