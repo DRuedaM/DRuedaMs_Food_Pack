@@ -1,6 +1,6 @@
 {
   "parent": "item/generated",
   "textures": {
-    "layer0": "fried_chicken_mod:item/fried_chicken"
+    "layer0": "foodpack_mod:item/fried_chicken"
   }
 }

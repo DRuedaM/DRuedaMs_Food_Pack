@@ -1,14 +1,8 @@
-package es.druedam.friedchicken.item;
+package es.druedam.foodpack.item;
 
 import net.minecraft.world.effect.MobEffectInstance;
 import net.minecraft.world.effect.MobEffects;
 import net.minecraft.world.food.FoodProperties;
-import net.minecraft.world.item.Item;
-import net.minecraft.world.item.ItemStack;
-import net.minecraft.world.item.MilkBucketItem;
-import net.minecraft.world.item.alchemy.Potion;
-
-import java.util.List;
 
 public class ModFoods
 {

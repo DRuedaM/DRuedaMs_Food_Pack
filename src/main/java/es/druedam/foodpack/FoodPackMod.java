@@ -1,8 +1,8 @@
-package es.druedam.friedchicken;
+package es.druedam.foodpack;
 
 import com.mojang.logging.LogUtils;
-import es.druedam.friedchicken.item.ModCreativeModTabs;
-import es.druedam.friedchicken.item.ModItems;
+import es.druedam.foodpack.item.ModCreativeModTabs;
+import es.druedam.foodpack.item.ModItems;
 import net.minecraft.client.Minecraft;
 import net.minecraft.world.item.CreativeModeTabs;
 import net.minecraftforge.api.distmarker.Dist;
@@ -18,16 +18,16 @@ import net.minecraftforge.fml.javafmlmod.FMLJavaModLoadingContext;
 import org.slf4j.Logger;
 
 // The value here should match an entry in the META-INF/mods.toml file
-@Mod(FriedChickenMod.MOD_ID)
-public class FriedChickenMod
+@Mod(FoodPackMod.MOD_ID)
+public class FoodPackMod
 {
     // Define mod id in a common place for everything to reference
-    public static final String MOD_ID = "fried_chicken_mod";
+    public static final String MOD_ID = "foodpack_mod";
     // Directly reference a slf4j logger
     private static final Logger LOGGER = LogUtils.getLogger();
 
 
-    public FriedChickenMod()
+    public FoodPackMod()
     {
         IEventBus modEventBus = FMLJavaModLoadingContext.get().getModEventBus();
         ModCreativeModTabs.register(modEventBus);

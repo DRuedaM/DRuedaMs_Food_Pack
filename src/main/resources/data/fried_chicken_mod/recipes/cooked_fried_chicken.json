@@ -4,7 +4,7 @@
   "cookingtime": 200,
   "experience": 0.35,
   "ingredient": {
-    "item": "fried_chicken_mod:raw_fried_chicken"
+    "item": "foodpack_mod:raw_fried_chicken"
   },
-  "result": "fried_chicken_mod:fried_chicken"
+  "result": "foodpack_mod:fried_chicken"
 }

@@ -1,11 +1,10 @@
-package es.druedam.friedchicken.item;
+package es.druedam.foodpack.item;
 
-import es.druedam.friedchicken.FriedChickenMod;
+import es.druedam.foodpack.FoodPackMod;
 import net.minecraft.core.registries.Registries;
 import net.minecraft.network.chat.Component;
 import net.minecraft.world.item.CreativeModeTab;
 import net.minecraft.world.item.ItemStack;
-import net.minecraft.world.item.Items;
 import net.minecraftforge.eventbus.api.IEventBus;
 import net.minecraftforge.registries.DeferredRegister;
 import net.minecraftforge.registries.RegistryObject;
@@ -13,11 +12,11 @@ import net.minecraftforge.registries.RegistryObject;
 public class ModCreativeModTabs
 {
     public static final DeferredRegister<CreativeModeTab> CREATIVE_MODE_TABS
-            = DeferredRegister.create(Registries.CREATIVE_MODE_TAB, FriedChickenMod.MOD_ID);
+            = DeferredRegister.create(Registries.CREATIVE_MODE_TAB, FoodPackMod.MOD_ID);
 
-    public static final RegistryObject<CreativeModeTab> FRIEDCHICKEN_TAB = CREATIVE_MODE_TABS.register("friedchicken_tab",
+    public static final RegistryObject<CreativeModeTab> FOODPACK_TAB = CREATIVE_MODE_TABS.register("foodpack_tab",
             () -> CreativeModeTab.builder().icon(() -> new ItemStack(ModItems.FRIED_CHICKEN.get()))
-                    .title(Component.translatable("creativetab.friedchicken_tab"))
+                    .title(Component.translatable("creativetab.foodpack_tab"))
                     .displayItems((pParameters, pOutput) ->
                     {
                         pOutput.accept(ModItems.FRIED_CHICKEN.get());

@@ -1,10 +1,10 @@
 {
-  "item.fried_chicken_mod.fried_chicken": "Pollo Frito",
-  "item.fried_chicken_mod.raw_fried_chicken": "Pollo aderezado crudo",
-  "item.fried_chicken_mod.pepsi": "Pepsi",
-  "item.fried_chicken_mod.campurriana": "Campurriana",
+  "item.foodpack_mod.fried_chicken": "Pollo Frito",
+  "item.foodpack_mod.raw_fried_chicken": "Pollo aderezado crudo",
+  "item.foodpack_mod.pepsi": "Pepsi",
+  "item.foodpack_mod.campurriana": "Campurriana",
 
 
-  "creativetab.friedchicken_tab": "Fried Chicken Mod/DRuedaM"
+  "creativetab.foodpack_tab": "Fried Chicken Mod/DRuedaM"
 
 }
