@@ -2,13 +2,13 @@
   "type": "minecraft:crafting_shaped",
   "category": "food",
   "pattern": [
-    "ACZ",
     "   ",
+    "ACZ",
     "   "
   ],
   "key": {
     "A": {
-      "item": "minecraft:water_bottle"
+      "item": "minecraft:potion"
     },
     "C": {
       "item": "minecraft:coal"

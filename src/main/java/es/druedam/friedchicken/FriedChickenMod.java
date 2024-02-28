@@ -58,6 +58,7 @@ public class FriedChickenMod
             event.accept(ModItems.FRIED_CHICKEN);
             event.accept(ModItems.RAW_FRIED_CHICKEN);
             event.accept(ModItems.PEPSI);
+            event.accept(ModItems.CAMPURRIANA);
         }
     }
 

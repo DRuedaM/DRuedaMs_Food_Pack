@@ -8,6 +8,8 @@ import net.minecraft.world.item.ItemStack;
 import net.minecraft.world.item.MilkBucketItem;
 import net.minecraft.world.item.alchemy.Potion;
 
+import java.util.List;
+
 public class ModFoods
 {
     public static final FoodProperties FRIED_CHICKEN = new FoodProperties.Builder().nutrition(5).
@@ -19,8 +21,11 @@ public class ModFoods
                     600), 0.3f).meat().build();
 
     public static final FoodProperties PEPSI = new FoodProperties.Builder().nutrition(2).
-            saturationMod(0.3f).effect(() -> new MobEffectInstance(MobEffects.BLINDNESS,
-                    200), 0.5f).build();
+            saturationMod(0.3f).effect(() -> new MobEffectInstance(MobEffects.WITHER,
+                    500), 1f).build();
+
+    public static final FoodProperties CAMPURRIANA = new FoodProperties.Builder().nutrition(3).
+            saturationMod(0f).build();
 
 
 

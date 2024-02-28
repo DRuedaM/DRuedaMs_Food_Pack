@@ -23,6 +23,7 @@ public class ModCreativeModTabs
                         pOutput.accept(ModItems.FRIED_CHICKEN.get());
                         pOutput.accept(ModItems.RAW_FRIED_CHICKEN.get());
                         pOutput.accept(ModItems.PEPSI.get());
+                        pOutput.accept(ModItems.CAMPURRIANA.get());
                     })
                     .build());
 
