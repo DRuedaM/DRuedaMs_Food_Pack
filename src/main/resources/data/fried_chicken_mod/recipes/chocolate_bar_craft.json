@@ -1,8 +1,0 @@
-{
-  "type": "minecraft:crafting_shapeless",
-  "category": "food",
-  "item": "minecraft:dye",
-  "result": {
-    "item": "druedams_foodpack_mod:chocolate_bar"
-  }
-}

@@ -2,23 +2,21 @@
   "type": "minecraft:crafting_shaped",
   "category": "food",
   "pattern": [
-    "   ",
-    "LHT",
-    "   "
+    "LCT"
   ],
   "key": {
     "L": {
       "item": "minecraft:milk_bucket"
     },
-    "H": {
-      "item": "minecraft:egg"
+    "C": {
+      "item": "minecraft:beef"
     },
     "T": {
-      "item": "minecraft:wheat"
+      "item": "minecraft:bread"
     }
   },
   "result": {
-    "item": "druedams_foodpack_mod:campurriana",
-    "count": 8
+    "item": "druedams_foodpack_mod:croqueta",
+    "count": 6
   }
 }

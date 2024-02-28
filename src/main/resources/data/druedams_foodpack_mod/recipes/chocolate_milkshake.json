@@ -2,19 +2,18 @@
   "type": "minecraft:crafting_shaped",
   "category": "food",
   "pattern": [
-    "   ",
-    " LC",
-    "   "
+    " LC"
   ],
   "key": {
     "L": {
       "item": "minecraft:milk_bucket"
     },
     "C": {
-      "item": "minecraft:chocolate_bar"
+      "item": "druedams_foodpack_mod:chocolate_table"
     }
   },
   "result": {
-    "item": "druedams_foodpack_mod:chocolate_milkshake"
+    "item": "druedams_foodpack_mod:chocolate_milkshake",
+    "count": 1
   }
 }
