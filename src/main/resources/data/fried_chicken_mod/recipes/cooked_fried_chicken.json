@@ -4,7 +4,7 @@
   "cookingtime": 200,
   "experience": 0.35,
   "ingredient": {
-    "item": "foodpack_mod:raw_fried_chicken"
+    "item": "druedams_foodpack_mod:raw_fried_chicken"
   },
-  "result": "foodpack_mod:fried_chicken"
+  "result": "druedams_foodpack_mod:fried_chicken"
 }

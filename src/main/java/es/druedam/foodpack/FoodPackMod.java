@@ -22,7 +22,7 @@ import org.slf4j.Logger;
 public class FoodPackMod
 {
     // Define mod id in a common place for everything to reference
-    public static final String MOD_ID = "foodpack_mod";
+    public static final String MOD_ID = "druedams_foodpack_mod";
     // Directly reference a slf4j logger
     private static final Logger LOGGER = LogUtils.getLogger();
 
