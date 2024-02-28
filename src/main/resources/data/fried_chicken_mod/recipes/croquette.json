@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "food",
+  "pattern": [
+    "   ",
+    "LCT",
+    "   "
+  ],
+  "key": {
+    "L": {
+      "item": "minecraft:milk_bucket"
+    },
+    "C": {
+      "item": "minecraft:beef"
+    },
+    "T": {
+      "item": "minecraft:bread"
+    }
+  },
+  "result": {
+    "item": "druedams_foodpack_mod:croqueta",
+    "count": 6
+  }
+}
