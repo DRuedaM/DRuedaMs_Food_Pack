@@ -15,7 +15,7 @@ public class ModCreativeModTabs
             = DeferredRegister.create(Registries.CREATIVE_MODE_TAB, FoodPackMod.MOD_ID);
 
     public static final RegistryObject<CreativeModeTab> FOODPACK_TAB = CREATIVE_MODE_TABS.register("foodpack_tab",
-            () -> CreativeModeTab.builder().icon(() -> new ItemStack(ModItems.FRIED_CHICKEN.get()))
+            () -> CreativeModeTab.builder().icon(() -> new ItemStack(ModItems.CROQUETTE.get()))
                     .title(Component.translatable("creativetab.foodpack_tab"))
                     .displayItems((pParameters, pOutput) ->
                     {

@@ -22,7 +22,7 @@ public class ModFoods
             saturationMod(0f).build();
 
     public static final FoodProperties CROQUETTE = new FoodProperties.Builder().nutrition(3).
-            saturationMod(0.4f).build();
+            saturationMod(0.4f).meat().build();
 
 
 
