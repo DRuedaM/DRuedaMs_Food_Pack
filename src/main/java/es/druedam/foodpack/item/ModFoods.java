@@ -24,7 +24,7 @@ public class ModFoods
     public static final FoodProperties CROQUETTE = new FoodProperties.Builder().nutrition(3).
             saturationMod(0.4f).meat().build();
 
-    public static final FoodProperties STRAWBERRIE = new FoodProperties.Builder().nutrition(2).
+    public static final FoodProperties STRAWBERRY = new FoodProperties.Builder().nutrition(2).
             saturationMod(0.1f).fast().effect(() -> new MobEffectInstance(MobEffects.DAMAGE_RESISTANCE, 500), 0.2f).build();
 
     public static final FoodProperties CHEESE = new FoodProperties.Builder().nutrition(2).

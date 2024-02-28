@@ -25,7 +25,7 @@ public class ModCreativeModTabs
                         pOutput.accept(ModItems.CAMPURRIANA.get());
                         pOutput.accept(ModItems.CROQUETTE.get());
                         pOutput.accept(ModItems.CHEESE.get());
-                        pOutput.accept(ModItems.STRAWBERRIE.get());
+                        pOutput.accept(ModItems.STRAWBERRY.get());
                         pOutput.accept(ModItems.CHOCOLATE_TABLE.get());
                         pOutput.accept(ModItems.CHOCOLATE_MILKSHAKE.get());
                     })

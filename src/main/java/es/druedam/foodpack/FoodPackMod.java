@@ -60,7 +60,7 @@ public class FoodPackMod
             event.accept(ModItems.PEPSI);
             event.accept(ModItems.CAMPURRIANA);
             event.accept(ModItems.CROQUETTE);
-            event.accept(ModItems.STRAWBERRIE);
+            event.accept(ModItems.STRAWBERRY);
             event.accept(ModItems.CHEESE);
             event.accept(ModItems.CHOCOLATE_TABLE);
             event.accept(ModItems.CHOCOLATE_MILKSHAKE);
