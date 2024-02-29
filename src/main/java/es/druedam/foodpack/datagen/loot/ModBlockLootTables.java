@@ -10,8 +10,10 @@ import net.minecraft.world.flag.FeatureFlagSet;
 import net.minecraft.world.flag.FeatureFlags;
 import net.minecraft.world.item.Item;
 import net.minecraft.world.level.block.Block;
+import net.minecraft.world.level.storage.loot.functions.SetItemCountFunction;
 import net.minecraft.world.level.storage.loot.predicates.LootItemBlockStatePropertyCondition;
 import net.minecraft.world.level.storage.loot.predicates.LootItemCondition;
+import net.minecraft.world.level.storage.loot.providers.number.UniformGenerator;
 import net.minecraftforge.fml.common.Mod;
 import net.minecraftforge.registries.RegistryObject;
 
@@ -33,7 +35,7 @@ public class ModBlockLootTables extends BlockLootSubProvider
                 .setProperties(StatePropertiesPredicate.Builder.properties().hasProperty(TomatoCropBlock.AGE, 4));
 
         this.add(ModBlocks.TOMATO_CROP.get(), createCropDrops(ModBlocks.TOMATO_CROP.get(), ModItems.TOMATO.get(),
-                        ModItems.TOMATO_SEEDS.get(), looitemcondition$builder));
+                        ModItems.TOMATO_SEEDS.get(), looitemcondition$builder).apply(SetItemCountFunction.setCount(UniformGenerator.between(1,4))));
         //------------------------------------------------------------------------------
     }
 

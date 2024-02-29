@@ -24,7 +24,7 @@ public class ModBlocks
 
 
     public static final RegistryObject<Block> TOMATO_CROP = BLOCKS.register("tomato_crop",
-            () -> new TomatoCropBlock(BlockBehaviour.Properties.copy(Blocks.CARROTS).noCollission().noOcclusion()));
+            () -> new TomatoCropBlock(BlockBehaviour.Properties.copy(Blocks.WHEAT).noCollission().noOcclusion()));
 
     private static <T extends Block> RegistryObject<T> registerBlock(String name, Supplier<T> block){
         RegistryObject<T> toReturn = BLOCKS.register(name, block);
