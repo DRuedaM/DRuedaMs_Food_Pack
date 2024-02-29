@@ -1,4 +1,5 @@
-// 1.20.1	2024-02-29T19:22:54.9941727	Recipes
+// 1.20.1	2024-02-29T19:40:45.1817361	Recipes
+233fbcd093a2682a62cfaf824a6d41d1f813d673 data/druedams_foodpack_mod/advancements/recipes/food/burguer.json
 8462a28f6355f877a9465e09a52e0e25427970ac data/druedams_foodpack_mod/advancements/recipes/food/campurriana.json
 812975d1976e5c4da25d4138c7ee5fa54cafdaca data/druedams_foodpack_mod/advancements/recipes/food/cheese_milk_bucket.json
 935784c21ae7ef33503dc9f09c06adff37da179d data/druedams_foodpack_mod/advancements/recipes/food/chocolate_milkshake.json
@@ -10,6 +11,7 @@ b979ae2caa64b3de9901e1f87487174433f4e643 data/druedams_foodpack_mod/advancements
 c03953f0075a707ee5605c4b70ecccf510a1421a data/druedams_foodpack_mod/advancements/recipes/food/pork_cheese_sandwich.json
 3c3203397c900de9506b27f9f56985b6eb2177d0 data/druedams_foodpack_mod/advancements/recipes/food/raw_fried_chicken.json
 f1bb9a248f9f279fa92c088215fef869850ac7c2 data/druedams_foodpack_mod/advancements/recipes/food/strawberry.json
+848673a021436eb758aa6ac974848822ba6e2203 data/druedams_foodpack_mod/recipes/burguer.json
 ec8ef3ca79ccfb58d3e795f1d16dd8c072f656ab data/druedams_foodpack_mod/recipes/campurriana.json
 12bcb74aef7530956b4eb164826b79619bb15d7d data/druedams_foodpack_mod/recipes/cheese_milk_bucket.json
 9ed61801a6f9adcd490d1cf8a5676175d0269a4c data/druedams_foodpack_mod/recipes/chocolate_milkshake.json

@@ -71,7 +71,7 @@ public class FoodPackMod
             event.accept(ModItems.TOMATO_SEEDS);
             event.accept(ModItems.TOMATO);
             event.accept(ModItems.DURUM);
-
+            event.accept(ModItems.BURGUER);
         }
     }
 

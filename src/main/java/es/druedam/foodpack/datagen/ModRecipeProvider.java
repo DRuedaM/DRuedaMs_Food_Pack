@@ -98,6 +98,17 @@ public class ModRecipeProvider extends RecipeProvider implements IConditionBuild
                 .unlockedBy(getHasName(Items.BREAD), has(Items.BREAD))
                 .save(pWriter);
 
+        ShapedRecipeBuilder.shaped(RecipeCategory.FOOD, ModItems.BURGUER.get())
+                .pattern(" P ")
+                .pattern("CQT")
+                .pattern(" P ")
+                .define('P', Items.BREAD)
+                .define('C', Items.BEEF)
+                .define('Q', ModItems.CHEESE.get())
+                .define('T', ModItems.TOMATO.get())
+                .unlockedBy(getHasName(Items.BREAD), has(Items.BREAD))
+                .save(pWriter);
+
 
         oreCooking(pWriter, RecipeSerializer.SMELTING_RECIPE, List.of(ModItems.RAW_FRIED_CHICKEN.get()), RecipeCategory.FOOD, ModItems.FRIED_CHICKEN.get(), 0.2f, 200, "","");
 

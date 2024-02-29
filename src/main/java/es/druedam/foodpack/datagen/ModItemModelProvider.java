@@ -33,6 +33,7 @@ public class ModItemModelProvider extends ItemModelProvider
         simpleItem(ModItems.FRIED_CHICKEN);
         simpleItem(ModItems.TOMATO);
         simpleItem(ModItems.DURUM);
+        simpleItem(ModItems.BURGUER);
     }
 
     private ItemModelBuilder simpleItem(RegistryObject<Item> item)

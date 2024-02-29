@@ -33,6 +33,7 @@ public class ModCreativeModTabs
                         pOutput.accept(ModItems.TOMATO_SEEDS.get());
                         pOutput.accept(ModItems.TOMATO.get());
                         pOutput.accept(ModItems.DURUM.get());
+                        pOutput.accept(ModItems.BURGUER.get());
                     })
                     .build());
 
