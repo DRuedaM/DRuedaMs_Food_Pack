@@ -91,9 +91,9 @@ public class ModRecipeProvider extends RecipeProvider implements IConditionBuild
                 .save(pWriter);
 
 
-        oreCooking(pWriter, RecipeSerializer.SMELTING_RECIPE, List.of(ModItems.CHEESE.get()), RecipeCategory.FOOD, ModItems.FRIED_CHICKEN.get(), 0.2f, 200, "","Fried Chicken");
+        oreCooking(pWriter, RecipeSerializer.SMELTING_RECIPE, List.of(ModItems.RAW_FRIED_CHICKEN.get()), RecipeCategory.FOOD, ModItems.FRIED_CHICKEN.get(), 0.2f, 200, "","");
 
-        oreCooking(pWriter, RecipeSerializer.SMELTING_RECIPE, List.of(Items.MILK_BUCKET), RecipeCategory.FOOD, ModItems.CHEESE.get(), 0.2f, 100, "","Cheese");
+        oreCooking(pWriter, RecipeSerializer.SMELTING_RECIPE, List.of(Items.MILK_BUCKET), RecipeCategory.FOOD, ModItems.CHEESE.get(), 0.2f, 100, "","");
 
     }
 
@@ -106,14 +106,12 @@ public class ModRecipeProvider extends RecipeProvider implements IConditionBuild
     }
 
     protected static void oreCooking(Consumer<FinishedRecipe> pFinishedRecipeConsumer, RecipeSerializer<? extends AbstractCookingRecipe> pCookingSerializer, List<ItemLike> pIngredients, RecipeCategory pCategory, ItemLike pResult, float pExperience, int pCookingTime, String pGroup, String pRecipeName) {
-        Iterator var9 = pIngredients.iterator();
 
-        while(var9.hasNext()) {
-            ItemLike itemlike = (ItemLike)var9.next();
-            SimpleCookingRecipeBuilder.generic(Ingredient.of(new ItemLike[]{itemlike}), pCategory, pResult,
+        for(ItemLike itemLike: pIngredients) {
+            SimpleCookingRecipeBuilder.generic(Ingredient.of(new ItemLike[]{itemLike}), pCategory, pResult,
                     pExperience, pCookingTime, pCookingSerializer)
-                    .group(pGroup).unlockedBy(getHasName(itemlike), has(itemlike))
-                    .save(pFinishedRecipeConsumer, FoodPackMod.MOD_ID + getItemName(pResult) + ":" + pRecipeName + "_" + getItemName(itemlike));
+                    .group(pGroup).unlockedBy(getHasName(itemLike), has(itemLike))
+                    .save(pFinishedRecipeConsumer, FoodPackMod.MOD_ID + ":"+ getItemName(pResult)  + pRecipeName + "_" + getItemName(itemLike));
         }
 
     }

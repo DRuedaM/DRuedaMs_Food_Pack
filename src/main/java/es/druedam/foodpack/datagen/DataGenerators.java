@@ -10,6 +10,7 @@ import net.minecraft.server.packs.repository.Pack;
 import net.minecraft.world.food.Foods;
 import net.minecraftforge.common.data.ExistingFileHelper;
 import net.minecraftforge.data.event.GatherDataEvent;
+import net.minecraftforge.eventbus.api.SubscribeEvent;
 import net.minecraftforge.fml.common.Mod;
 
 import javax.xml.crypto.Data;
@@ -18,7 +19,8 @@ import java.util.concurrent.CompletableFuture;
 @Mod.EventBusSubscriber(modid = FoodPackMod.MOD_ID, bus = Mod.EventBusSubscriber.Bus.MOD)
 public class DataGenerators
 {
-    public static void gatherDAta(GatherDataEvent event){
+    @SubscribeEvent
+    public static void gatherData(GatherDataEvent event){
         DataGenerator generator = event.getGenerator();
         PackOutput packOutput = generator.getPackOutput();
         ExistingFileHelper existingFileHelper = event.getExistingFileHelper();

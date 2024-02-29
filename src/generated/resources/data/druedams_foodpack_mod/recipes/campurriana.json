@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "H": {
+      "item": "minecraft:egg"
+    },
+    "L": {
+      "item": "minecraft:milk_bucket"
+    },
+    "T": {
+      "item": "minecraft:wheat"
+    }
+  },
+  "pattern": [
+    "HLT"
+  ],
+  "result": {
+    "item": "druedams_foodpack_mod:campurriana"
+  },
+  "show_notification": true
+}

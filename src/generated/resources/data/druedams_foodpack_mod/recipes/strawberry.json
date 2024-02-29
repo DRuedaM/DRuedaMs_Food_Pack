@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "A": {
+      "item": "minecraft:water_bucket"
+    },
+    "S": {
+      "item": "minecraft:wheat_seeds"
+    }
+  },
+  "pattern": [
+    "AS"
+  ],
+  "result": {
+    "item": "druedams_foodpack_mod:strawberry"
+  },
+  "show_notification": true
+}

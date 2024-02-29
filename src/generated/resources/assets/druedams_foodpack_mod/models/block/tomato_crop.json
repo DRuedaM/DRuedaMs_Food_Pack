@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/cube_all",
+  "textures": {
+    "all": "druedams_foodpack_mod:block/tomato_crop"
+  }
+}
