@@ -29,6 +29,8 @@ public class ModCreativeModTabs
                         pOutput.accept(ModItems.CHOCOLATE_TABLE.get());
                         pOutput.accept(ModItems.CHOCOLATE_MILKSHAKE.get());
                         pOutput.accept(ModItems.BOCATA_LOMO_QUESO.get());
+                        pOutput.accept(ModItems.TOMATO_SEEDS.get());
+
                     })
                     .build());
 

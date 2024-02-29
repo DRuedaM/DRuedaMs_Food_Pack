@@ -1,6 +1,7 @@
 package es.druedam.foodpack;
 
 import com.mojang.logging.LogUtils;
+import es.druedam.foodpack.block.ModBlocks;
 import es.druedam.foodpack.item.ModCreativeModTabs;
 import es.druedam.foodpack.item.ModItems;
 import net.minecraft.client.Minecraft;
@@ -32,6 +33,7 @@ public class FoodPackMod
         IEventBus modEventBus = FMLJavaModLoadingContext.get().getModEventBus();
         ModCreativeModTabs.register(modEventBus);
         ModItems.register(modEventBus);
+        ModBlocks.register(modEventBus);
 
 
         // Register the commonSetup method for modloading
@@ -65,6 +67,7 @@ public class FoodPackMod
             event.accept(ModItems.CHOCOLATE_TABLE);
             event.accept(ModItems.CHOCOLATE_MILKSHAKE);
             event.accept(ModItems.BOCATA_LOMO_QUESO);
+            event.accept(ModItems.TOMATO_SEEDS);
         }
     }
 

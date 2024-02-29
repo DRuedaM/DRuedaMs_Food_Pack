@@ -1,7 +1,9 @@
 package es.druedam.foodpack.item;
 
 import es.druedam.foodpack.FoodPackMod;
+import es.druedam.foodpack.block.ModBlocks;
 import net.minecraft.world.item.Item;
+import net.minecraft.world.item.ItemNameBlockItem;
 import net.minecraftforge.eventbus.api.IEventBus;
 import net.minecraftforge.registries.DeferredRegister;
 import net.minecraftforge.registries.ForgeRegistries;
@@ -41,6 +43,9 @@ public class ModItems
 
     public static final RegistryObject<Item> BOCATA_LOMO_QUESO = ITEMS.register("pork_cheese_sandwich",
             () -> new Item(new Item.Properties().food(ModFoods.BOCATA_LOMO_QUESO)));
+
+    public static final RegistryObject<Item> TOMATO_SEEDS = ITEMS.register("tomato_seeds",
+            () -> new ItemNameBlockItem(ModBlocks.TOMATO_CROP.get(), new Item.Properties()));
 
 
     public static void register(IEventBus eventBus)
