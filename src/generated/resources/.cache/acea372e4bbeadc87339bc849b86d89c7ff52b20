@@ -1,9 +1,10 @@
-// 1.20.1	2024-02-29T13:56:09.2366138	Item Models: druedams_foodpack_mod
+// 1.20.1	2024-02-29T19:24:47.7578778	Item Models: druedams_foodpack_mod
 48ffe9df5ef7f7dfb0bd1f3878eb0a94f9a5333f assets/druedams_foodpack_mod/models/item/campurriana.json
 fc6735ca65413dbb57097bfbf9cac81587f79234 assets/druedams_foodpack_mod/models/item/cheese.json
 9e6b344f3ab1623eb92c696deae760eb3e04df5b assets/druedams_foodpack_mod/models/item/chocolate_milkshake.json
 c0c98d0663f95175fc74b9fc99817938f85420bd assets/druedams_foodpack_mod/models/item/chocolate_table.json
 83aa60f54b59cfb61b7297af16fcc026151b4fea assets/druedams_foodpack_mod/models/item/croqueta.json
+f6143ce3d67f4a6335364e2cb9473c9a412a84a2 assets/druedams_foodpack_mod/models/item/durum.json
 9c0a32af8a31787ce98327599a9dbeee1ca059b5 assets/druedams_foodpack_mod/models/item/fried_chicken.json
 73b6df845cead05cbce912a4f397c28f2f27d155 assets/druedams_foodpack_mod/models/item/pepsi.json
 06e007b1a4f9a34e19965b8efb8753e122faf674 assets/druedams_foodpack_mod/models/item/pork_cheese_sandwich.json

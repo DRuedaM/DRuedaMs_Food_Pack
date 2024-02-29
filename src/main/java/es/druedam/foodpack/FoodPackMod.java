@@ -70,6 +70,7 @@ public class FoodPackMod
             event.accept(ModItems.BOCATA_LOMO_QUESO);
             event.accept(ModItems.TOMATO_SEEDS);
             event.accept(ModItems.TOMATO);
+            event.accept(ModItems.DURUM);
 
         }
     }

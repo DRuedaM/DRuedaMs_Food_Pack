@@ -43,6 +43,9 @@ public class ModFoods
     public static final FoodProperties TOMATO = new FoodProperties.Builder().nutrition(4).
             saturationMod(0.2f).build();
 
+    public static final FoodProperties DURUM = new FoodProperties.Builder().nutrition(10).
+            saturationMod(1f).effect(new MobEffectInstance(MobEffects.CONFUSION, 1000), 0.5f).build();
+
 
 
 

@@ -51,6 +51,9 @@ public class ModItems
     public static final RegistryObject<Item> TOMATO = ITEMS.register("tomato",
             () -> new Item(new Item.Properties().food(ModFoods.TOMATO)));
 
+    public static final RegistryObject<Item> DURUM = ITEMS.register("durum",
+            () -> new Item(new Item.Properties().food(ModFoods.DURUM)));
+
 
     public static void register(IEventBus eventBus)
     {
