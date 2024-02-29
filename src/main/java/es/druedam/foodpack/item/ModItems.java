@@ -11,6 +11,7 @@ import net.minecraftforge.registries.RegistryObject;
 
 public class ModItems
 {
+    //In this class we create the items to register in out mod
     public static final DeferredRegister<Item> ITEMS =
             DeferredRegister.create(ForgeRegistries.ITEMS, FoodPackMod.MOD_ID);
 
@@ -46,6 +47,9 @@ public class ModItems
 
     public static final RegistryObject<Item> TOMATO_SEEDS = ITEMS.register("tomato_seeds",
             () -> new ItemNameBlockItem(ModBlocks.TOMATO_CROP.get(), new Item.Properties()));
+
+    public static final RegistryObject<Item> TOMATO = ITEMS.register("tomato",
+            () -> new Item(new Item.Properties().food(ModFoods.TOMATO)));
 
 
     public static void register(IEventBus eventBus)

@@ -11,8 +11,8 @@ import net.minecraft.world.level.block.state.properties.IntegerProperty;
 
 public class TomatoCropBlock extends CropBlock
 {
-    public static final int MAX_AGE = 5;
-    public static final IntegerProperty AGE = BlockStateProperties.AGE_5;
+    public static final int MAX_AGE = 4;
+    public static final IntegerProperty AGE = BlockStateProperties.AGE_4;
 
 
     public TomatoCropBlock(Properties pProperties)
@@ -26,7 +26,7 @@ public class TomatoCropBlock extends CropBlock
     }
 
     @Override
-    protected IntegerProperty getAgeProperty() {
+    public IntegerProperty getAgeProperty() {
         return AGE;
     }
 

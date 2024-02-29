@@ -6,6 +6,7 @@ import net.minecraft.world.food.FoodProperties;
 
 public class ModFoods
 {
+    //Class for creating food and his respective properties
     public static final FoodProperties FRIED_CHICKEN = new FoodProperties.Builder().nutrition(5).
             saturationMod(0.4f).effect(() -> new MobEffectInstance(MobEffects.MOVEMENT_SPEED,
                             200), 1f).meat().build();
@@ -38,6 +39,9 @@ public class ModFoods
 
     public static final FoodProperties BOCATA_LOMO_QUESO = new FoodProperties.Builder().nutrition(8).
             saturationMod(0.5f).build();
+
+    public static final FoodProperties TOMATO = new FoodProperties.Builder().nutrition(4).
+            saturationMod(0.2f).build();
 
 
 

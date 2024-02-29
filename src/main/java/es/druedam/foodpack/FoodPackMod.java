@@ -55,6 +55,7 @@ public class FoodPackMod
     // Add the example block item to the building blocks tab
     private void addCreative(BuildCreativeModeTabContentsEvent event)
     {
+        //This adds the mod items to our creative inventory explorer
         if(event.getTabKey() == CreativeModeTabs.INGREDIENTS)
         {
             event.accept(ModItems.FRIED_CHICKEN);
@@ -68,6 +69,8 @@ public class FoodPackMod
             event.accept(ModItems.CHOCOLATE_MILKSHAKE);
             event.accept(ModItems.BOCATA_LOMO_QUESO);
             event.accept(ModItems.TOMATO_SEEDS);
+            event.accept(ModItems.TOMATO);
+
         }
     }
 

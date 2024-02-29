@@ -17,12 +17,14 @@ import java.util.function.Supplier;
 
 public class ModBlocks
 {
+    //Class for creating blocks like items and registering in the mod
+
     public static final DeferredRegister<Block> BLOCKS =
             DeferredRegister.create(ForgeRegistries.BLOCKS, FoodPackMod.MOD_ID);
 
 
     public static final RegistryObject<Block> TOMATO_CROP = BLOCKS.register("tomato_crop",
-            () -> new TomatoCropBlock(BlockBehaviour.Properties.copy(Blocks.WHEAT).noCollission().noOcclusion()));
+            () -> new TomatoCropBlock(BlockBehaviour.Properties.copy(Blocks.CARROTS).noCollission().noOcclusion()));
 
     private static <T extends Block> RegistryObject<T> registerBlock(String name, Supplier<T> block){
         RegistryObject<T> toReturn = BLOCKS.register(name, block);

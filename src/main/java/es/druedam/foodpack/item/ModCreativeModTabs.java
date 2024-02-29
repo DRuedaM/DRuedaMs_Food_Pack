@@ -14,6 +14,7 @@ public class ModCreativeModTabs
     public static final DeferredRegister<CreativeModeTab> CREATIVE_MODE_TABS
             = DeferredRegister.create(Registries.CREATIVE_MODE_TAB, FoodPackMod.MOD_ID);
 
+    //We create the method to create a new section for our mod and add our blocks, items, and more
     public static final RegistryObject<CreativeModeTab> FOODPACK_TAB = CREATIVE_MODE_TABS.register("foodpack_tab",
             () -> CreativeModeTab.builder().icon(() -> new ItemStack(ModItems.BOCATA_LOMO_QUESO.get()))
                     .title(Component.translatable("creativetab.foodpack_tab"))
@@ -30,6 +31,7 @@ public class ModCreativeModTabs
                         pOutput.accept(ModItems.CHOCOLATE_MILKSHAKE.get());
                         pOutput.accept(ModItems.BOCATA_LOMO_QUESO.get());
                         pOutput.accept(ModItems.TOMATO_SEEDS.get());
+                        pOutput.accept(ModItems.TOMATO.get());
 
                     })
                     .build());
