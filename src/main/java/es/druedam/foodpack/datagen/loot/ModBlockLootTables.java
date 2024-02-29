@@ -36,7 +36,7 @@ public class ModBlockLootTables extends BlockLootSubProvider
                 .setProperties(StatePropertiesPredicate.Builder.properties().hasProperty(TomatoCropBlock.AGE, 4));
 
         this.add(ModBlocks.TOMATO_CROP.get(), createCropDrops(ModBlocks.TOMATO_CROP.get(), ModItems.TOMATO.get(),
-                        ModItems.TOMATO_SEEDS.get(), looitemcondition$builder).apply(SetItemCountFunction.setCount(UniformGenerator.between(2,4))));
+                        ModItems.TOMATO_SEEDS.get(), looitemcondition$builder).apply(SetItemCountFunction.setCount(UniformGenerator.between(1,2))));
         //--------------------------------------------------------------------------------//
     }
 

@@ -47,7 +47,7 @@ public class ModRecipeProvider extends RecipeProvider implements IConditionBuild
         ShapedRecipeBuilder.shaped(RecipeCategory.FOOD, ModItems.BOCATA_LOMO_QUESO.get())
                 .pattern("QCP")
                 .define('Q', ModItems.CHEESE.get())
-                .define('C', Items.CHICKEN)
+                .define('C', Items.PORKCHOP)
                 .define('P', Items.BREAD)
                 .unlockedBy(getHasName(ModItems.CHEESE.get()), has(ModItems.CHEESE.get()))
                 .save(pWriter);
