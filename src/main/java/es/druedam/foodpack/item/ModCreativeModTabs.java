@@ -34,6 +34,7 @@ public class ModCreativeModTabs
                         pOutput.accept(ModItems.TOMATO.get());
                         pOutput.accept(ModItems.DURUM.get());
                         pOutput.accept(ModItems.BURGUER.get());
+                        pOutput.accept(ModItems.FOOD_COMBINED.get());
                     })
                     .build());
 

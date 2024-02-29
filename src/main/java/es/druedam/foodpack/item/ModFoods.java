@@ -44,10 +44,13 @@ public class ModFoods
             saturationMod(0.2f).build();
 
     public static final FoodProperties DURUM = new FoodProperties.Builder().nutrition(10).
-            saturationMod(1f).effect(new MobEffectInstance(MobEffects.CONFUSION, 750), 0.5f).build();
+            saturationMod(1f).effect(() -> new MobEffectInstance(MobEffects.CONFUSION, 750), 0.5f).build();
 
     public static final FoodProperties BURGUER = new FoodProperties.Builder().nutrition(7).
             saturationMod(0.7f).build();
+
+    public static final FoodProperties FOOD_COMBINED = new FoodProperties.Builder().nutrition(5).
+            saturationMod(0.5f).build();
 
 
 
