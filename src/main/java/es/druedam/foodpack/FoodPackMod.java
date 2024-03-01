@@ -4,6 +4,7 @@ import com.mojang.logging.LogUtils;
 import es.druedam.foodpack.block.ModBlocks;
 import es.druedam.foodpack.item.ModCreativeModTabs;
 import es.druedam.foodpack.item.ModItems;
+import es.druedam.foodpack.loot.ModLootModifiers;
 import net.minecraft.client.Minecraft;
 import net.minecraft.world.item.CreativeModeTabs;
 import net.minecraftforge.api.distmarker.Dist;
@@ -41,6 +42,8 @@ public class FoodPackMod
 
         // Register ourselves for server and other game events we are interested in
         MinecraftForge.EVENT_BUS.register(this);
+
+        ModLootModifiers.register(modEventBus);
 
         // Register the item to a creative tab
         modEventBus.addListener(this::addCreative);

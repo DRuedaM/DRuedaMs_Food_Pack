@@ -1,0 +1,5 @@
+// 1.20.1	2024-03-01T22:17:05.5390411	Global Loot Modifiers : druedams_foodpack_mod
+5afc00ccd1e2ba95e2cf256d5d6938243f1b40d4 data/druedams_foodpack_mod/loot_modifiers/pepsi_from_zombie.json
+73c36766413a7dd90ab2e81d439e57c8e52184f7 data/druedams_foodpack_mod/loot_modifiers/tomato_seeds_from_grass.json
+9efa5e6d3f4ddf42fe8b9a62a9a58d4dd9b72693 data/druedams_foodpack_mod/loot_modifiers/tomato_seeds_from_village.json
+2b8bc81705d64238f37b25559ff6bc616b494539 data/forge/loot_modifiers/global_loot_modifiers.json
