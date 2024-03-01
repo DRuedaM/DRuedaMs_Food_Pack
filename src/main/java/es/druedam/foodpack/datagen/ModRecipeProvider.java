@@ -1,11 +1,13 @@
 package es.druedam.foodpack.datagen;
 
 import es.druedam.foodpack.FoodPackMod;
+import es.druedam.foodpack.block.ModBlocks;
 import es.druedam.foodpack.item.ModItems;
 import net.minecraft.data.PackOutput;
 import net.minecraft.data.recipes.*;
 import net.minecraft.world.entity.animal.Chicken;
 import net.minecraft.world.food.Foods;
+import net.minecraft.world.item.BlockItem;
 import net.minecraft.world.item.Item;
 import net.minecraft.world.item.Items;
 import net.minecraft.world.item.MinecartItem;
@@ -115,6 +117,16 @@ public class ModRecipeProvider extends RecipeProvider implements IConditionBuild
                 .define('B', Items.PORKCHOP)
                 .define('P', Items.POTATO)
                 .unlockedBy(getHasName(Items.PORKCHOP), has(Items.PORKCHOP))
+                .save(pWriter);
+
+        ShapedRecipeBuilder.shaped(RecipeCategory.FOOD, ModBlocks.PIZZA.get())
+                .pattern("QCT")
+                .pattern("PPP")
+                .define('Q', ModItems.CHEESE.get())
+                .define('C', Items.PORKCHOP)
+                .define('T', ModItems.TOMATO.get())
+                .define('P', Items.BREAD)
+                .unlockedBy(getHasName(Items.BREAD), has(Items.BREAD))
                 .save(pWriter);
 
 

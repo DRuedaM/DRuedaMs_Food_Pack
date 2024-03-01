@@ -1,6 +1,7 @@
 package es.druedam.foodpack.item;
 
 import es.druedam.foodpack.FoodPackMod;
+import es.druedam.foodpack.block.ModBlocks;
 import net.minecraft.core.registries.Registries;
 import net.minecraft.network.chat.Component;
 import net.minecraft.world.item.CreativeModeTab;
@@ -35,6 +36,7 @@ public class ModCreativeModTabs
                         pOutput.accept(ModItems.DURUM.get());
                         pOutput.accept(ModItems.BURGUER.get());
                         pOutput.accept(ModItems.FOOD_COMBINED.get());
+                        pOutput.accept(ModBlocks.PIZZA.get());
                     })
                     .build());
 

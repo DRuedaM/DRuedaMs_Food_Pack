@@ -58,7 +58,7 @@ public class ModItems
             () -> new Item(new Item.Properties().food(ModFoods.BURGUER)));
 
     public static final RegistryObject<Item> FOOD_COMBINED = ITEMS.register("food_combined",
-            () -> new Item(new Item.Properties().food(ModFoods.FOOD_COMBINED)));
+            () -> new Item(new Item.Properties().food(ModFoods.FOOD_COMBINED).stacksTo(1)));
 
 
     public static void register(IEventBus eventBus)

@@ -17,7 +17,7 @@ public class ModFoods
 
     public static final FoodProperties PEPSI = new FoodProperties.Builder().nutrition(2).
             saturationMod(0f).effect(() -> new MobEffectInstance(MobEffects.WITHER,
-                    500), 1f).build();
+                    500), 1f).alwaysEat().build();
 
     public static final FoodProperties CAMPURRIANA = new FoodProperties.Builder().nutrition(3).
             saturationMod(0.2f).fast().build();

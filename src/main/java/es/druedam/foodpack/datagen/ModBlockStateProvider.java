@@ -1,6 +1,5 @@
 package es.druedam.foodpack.datagen;
 
-import com.mojang.datafixers.types.Func;
 import es.druedam.foodpack.FoodPackMod;
 import es.druedam.foodpack.block.ModBlocks;
 import es.druedam.foodpack.block.custom.TomatoCropBlock;
@@ -12,6 +11,7 @@ import net.minecraft.world.level.block.state.BlockState;
 import net.minecraftforge.client.model.generators.BlockStateProvider;
 import net.minecraftforge.client.model.generators.ConfiguredModel;
 import net.minecraftforge.common.data.ExistingFileHelper;
+import net.minecraftforge.fml.common.Mod;
 import net.minecraftforge.registries.RegistryObject;
 
 import java.util.function.Function;
@@ -40,7 +40,6 @@ public class ModBlockStateProvider extends BlockStateProvider
     @Override
     protected void registerStatesAndModels()
     {
-        //blockWithItem(ModBlocks.TOMATO_CROP);
         makeTomatoCrop((CropBlock) ModBlocks.TOMATO_CROP.get(), "tomato_stage", "tomato_stage");
     }
 

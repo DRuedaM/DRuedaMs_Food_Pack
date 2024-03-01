@@ -5,10 +5,7 @@ import es.druedam.foodpack.block.custom.TomatoCropBlock;
 import es.druedam.foodpack.item.ModItems;
 import net.minecraft.advancements.critereon.StatePropertiesPredicate;
 import net.minecraft.data.loot.BlockLootSubProvider;
-import net.minecraft.world.flag.FeatureFlag;
-import net.minecraft.world.flag.FeatureFlagSet;
 import net.minecraft.world.flag.FeatureFlags;
-import net.minecraft.world.item.Item;
 import net.minecraft.world.level.block.Block;
 import net.minecraft.world.level.storage.loot.functions.SetItemCountFunction;
 import net.minecraft.world.level.storage.loot.predicates.LootItemBlockStatePropertyCondition;
@@ -37,7 +34,8 @@ public class ModBlockLootTables extends BlockLootSubProvider
 
         this.add(ModBlocks.TOMATO_CROP.get(), createCropDrops(ModBlocks.TOMATO_CROP.get(), ModItems.TOMATO.get(),
                         ModItems.TOMATO_SEEDS.get(), looitemcondition$builder).apply(SetItemCountFunction.setCount(UniformGenerator.between(1,2))));
-        //--------------------------------------------------------------------------------//
+        //--------------------------------------------------------------------------------
+        //this.(ModBlocks.PIZZA.get());
     }
 
     @Override
