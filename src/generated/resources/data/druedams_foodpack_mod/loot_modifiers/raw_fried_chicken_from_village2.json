@@ -3,8 +3,8 @@
   "conditions": [
     {
       "condition": "forge:loot_table_id",
-      "loot_table_id": "minecraft:entities/zombie"
+      "loot_table_id": "minecraft:chests/village_weaponsmith"
     }
   ],
-  "item": "druedams_foodpack_mod:pepsi"
+  "item": "druedams_foodpack_mod:raw_fried_chicken"
 }

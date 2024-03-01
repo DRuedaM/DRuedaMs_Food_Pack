@@ -3,8 +3,8 @@
   "conditions": [
     {
       "condition": "forge:loot_table_id",
-      "loot_table_id": "minecraft:chests/mason"
+      "loot_table_id": "minecraft:chests/village_armorer"
     }
   ],
-  "item": "druedams_foodpack_mod:tomato_seeds"
+  "item": "druedams_foodpack_mod:raw_fried_chicken"
 }

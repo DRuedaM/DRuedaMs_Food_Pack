@@ -49,7 +49,7 @@ public class AddItemModifier extends LootModifier
         generatedLoot.add(new ItemStack((this.item)));
 
 
-        return null;
+        return generatedLoot;
     }
 
 

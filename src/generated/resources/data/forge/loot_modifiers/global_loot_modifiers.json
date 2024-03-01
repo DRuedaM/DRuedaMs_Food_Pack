@@ -1,8 +1,11 @@
 {
   "entries": [
+    "druedams_foodpack_mod:raw_fried_chicken_from_village3",
+    "druedams_foodpack_mod:pepsi_from",
     "druedams_foodpack_mod:tomato_seeds_from_village",
-    "druedams_foodpack_mod:pepsi_from_zombie",
-    "druedams_foodpack_mod:tomato_seeds_from_grass"
+    "druedams_foodpack_mod:raw_fried_chicken_from_village",
+    "druedams_foodpack_mod:tomato_seeds_from_grass",
+    "druedams_foodpack_mod:raw_fried_chicken_from_village2"
   ],
   "replace": false
 }
