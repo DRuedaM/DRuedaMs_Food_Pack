@@ -3,7 +3,7 @@
   "conditions": [
     {
       "condition": "forge:loot_table_id",
-      "loot_table_id": "minecraft:chests/mason"
+      "loot_table_id": "minecraft:chests/village_mason"
     }
   ],
   "item": "druedams_foodpack_mod:tomato_seeds"

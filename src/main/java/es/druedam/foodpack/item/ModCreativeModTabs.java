@@ -17,7 +17,7 @@ public class ModCreativeModTabs
 
     //We create the method to create a new section for our mod and add our blocks, items, and more
     public static final RegistryObject<CreativeModeTab> FOODPACK_TAB = CREATIVE_MODE_TABS.register("foodpack_tab",
-            () -> CreativeModeTab.builder().icon(() -> new ItemStack(ModItems.BOCATA_LOMO_QUESO.get()))
+            () -> CreativeModeTab.builder().icon(() -> new ItemStack(ModItems.DURUM.get()))
                     .title(Component.translatable("creativetab.foodpack_tab"))
                     .displayItems((pParameters, pOutput) ->
                     {

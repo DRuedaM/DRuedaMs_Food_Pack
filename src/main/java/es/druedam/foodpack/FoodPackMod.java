@@ -5,6 +5,7 @@ import es.druedam.foodpack.block.ModBlocks;
 import es.druedam.foodpack.item.ModCreativeModTabs;
 import es.druedam.foodpack.item.ModItems;
 import es.druedam.foodpack.loot.ModLootModifiers;
+import es.druedam.foodpack.villager.ModVillagers;
 import net.minecraft.client.Minecraft;
 import net.minecraft.world.item.CreativeModeTabs;
 import net.minecraftforge.api.distmarker.Dist;
@@ -45,6 +46,7 @@ public class FoodPackMod
 
         ModLootModifiers.register(modEventBus);
 
+        ModVillagers.register(modEventBus);
         // Register the item to a creative tab
         modEventBus.addListener(this::addCreative);
 

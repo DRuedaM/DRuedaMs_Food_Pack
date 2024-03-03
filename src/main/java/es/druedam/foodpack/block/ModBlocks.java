@@ -2,6 +2,7 @@ package es.druedam.foodpack.block;
 
 import es.druedam.foodpack.FoodPackMod;
 import es.druedam.foodpack.block.custom.PizzaBlock;
+import es.druedam.foodpack.block.custom.StrawberryCropBlock;
 import es.druedam.foodpack.item.ModItems;
 import es.druedam.foodpack.block.custom.TomatoCropBlock;
 import net.minecraft.world.item.BlockItem;
@@ -26,6 +27,9 @@ public class ModBlocks
 
     public static final RegistryObject<Block> TOMATO_CROP = BLOCKS.register("tomato_crop",
             () -> new TomatoCropBlock(BlockBehaviour.Properties.copy(Blocks.WHEAT).noCollission().noOcclusion()));
+
+    public static final RegistryObject<Block> STRAWBERRY_CROP = BLOCKS.register("strawberry_crop",
+            () -> new StrawberryCropBlock(BlockBehaviour.Properties.copy(Blocks.POTATOES).noCollission().noOcclusion()));
 
     public static final RegistryObject<Block> PIZZA = registerBlock("pizza",
             () -> new PizzaBlock(BlockBehaviour.Properties.copy(Blocks.CAKE).noLootTable()),1);

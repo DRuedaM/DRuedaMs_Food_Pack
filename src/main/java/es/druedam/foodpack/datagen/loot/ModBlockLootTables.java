@@ -35,6 +35,12 @@ public class ModBlockLootTables extends BlockLootSubProvider
         this.add(ModBlocks.TOMATO_CROP.get(), createCropDrops(ModBlocks.TOMATO_CROP.get(), ModItems.TOMATO.get(),
                         ModItems.TOMATO_SEEDS.get(), looitemcondition$builder).apply(SetItemCountFunction.setCount(UniformGenerator.between(1,2))));
         //--------------------------------------------------------------------------------
+        LootItemCondition.Builder looitemcondition$builder_strawberry = LootItemBlockStatePropertyCondition
+                .hasBlockStateProperties(ModBlocks.STRAWBERRY_CROP.get())
+                .setProperties(StatePropertiesPredicate.Builder.properties().hasProperty(TomatoCropBlock.AGE, 7));
+
+        this.add(ModBlocks.STRAWBERRY_CROP.get(), createCropDrops(ModBlocks.STRAWBERRY_CROP.get(), ModItems.STRAWBERRY.get(),
+                ModItems.STRAWBERRY.get(), looitemcondition$builder_strawberry).apply(SetItemCountFunction.setCount(UniformGenerator.between(2,3))));
         //this.(ModBlocks.PIZZA.get());
     }
 

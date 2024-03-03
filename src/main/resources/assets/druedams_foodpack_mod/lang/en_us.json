@@ -15,6 +15,8 @@
   "item.druedams_foodpack_mod.burger": "Burger",
   "item.druedams_foodpack_mod.food_combined": "Food combined",
   "block.druedams_foodpack_mod.pizza": "Pizza",
+  "block.druedams_foodpack_mod.strawberry_seeds": "Strawberry seeds",
+  "entity.minecraft.villager.druedams_foodpack_mod.michael_jackson": "Michael Jackson",
 
   "creativetab.foodpack_tab": "DRuedaM's Food Pack Mod"
 }

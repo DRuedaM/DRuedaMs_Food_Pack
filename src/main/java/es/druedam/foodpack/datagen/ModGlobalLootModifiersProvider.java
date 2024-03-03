@@ -20,30 +20,32 @@ public class ModGlobalLootModifiersProvider extends GlobalLootModifierProvider
     }
 
     @Override
-    protected void start() {
+    protected void start()
+    {
+
         add("tomato_seeds_from_grass", new AddItemModifier(new LootItemCondition[] {
                 LootItemBlockStatePropertyCondition.hasBlockStateProperties(Blocks.GRASS).build(),
                 LootItemRandomChanceCondition.randomChance(0.35f).build()
         },ModItems.TOMATO_SEEDS.get()));
 
-        add("pepsi_from", new AddItemModifier(new LootItemCondition[]{
+        add("pepsi_from_zombie", new AddItemModifier(new LootItemCondition[]{
                 new LootTableIdCondition.Builder(new ResourceLocation("entities/zombie")).build(),
                 LootItemRandomChanceCondition.randomChance(0.25f).build()
         }, ModItems.PEPSI.get()));
 
-        add("tomato_seeds_from_village", new AddItemModifier(new LootItemCondition[]{
-                new LootTableIdCondition.Builder(new ResourceLocation("chests/mason")).build()
+        add("tomato_seeds_from_village_mason", new AddItemModifier(new LootItemCondition[]{
+                new LootTableIdCondition.Builder(new ResourceLocation("chests/village_mason")).build()
         }, ModItems.TOMATO_SEEDS.get()));
 
-        add("raw_fried_chicken_from_village", new AddItemModifier(new LootItemCondition[]{
+        add("raw_fried_chicken_from_village_butcher", new AddItemModifier(new LootItemCondition[]{
                 new LootTableIdCondition.Builder(new ResourceLocation("chests/village_butcher")).build()
         }, ModItems.RAW_FRIED_CHICKEN.get()));
 
-        add("raw_fried_chicken_from_village2", new AddItemModifier(new LootItemCondition[]{
+        add("raw_fried_chicken_from_village_weaponsmith", new AddItemModifier(new LootItemCondition[]{
                 new LootTableIdCondition.Builder(new ResourceLocation("chests/village_weaponsmith")).build()
         }, ModItems.RAW_FRIED_CHICKEN.get()));
 
-        add("raw_fried_chicken_from_village3", new AddItemModifier(new LootItemCondition[]{
+        add("raw_fried_chicken_from_village_armorer", new AddItemModifier(new LootItemCondition[]{
                 new LootTableIdCondition.Builder(new ResourceLocation("chests/village_armorer")).build()
         }, ModItems.RAW_FRIED_CHICKEN.get()));
 

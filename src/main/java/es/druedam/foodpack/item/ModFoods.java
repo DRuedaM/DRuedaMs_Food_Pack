@@ -31,10 +31,10 @@ public class ModFoods
     public static final FoodProperties CHEESE = new FoodProperties.Builder().nutrition(2).
             saturationMod(0.5f).build();
 
-    public static final FoodProperties CHOCOLATE_TABLE = new FoodProperties.Builder().nutrition(4).
+    public static final FoodProperties CHOCOLATE_TABLE = new FoodProperties.Builder().nutrition(5).
             saturationMod(0.35f).build();
 
-    public static final FoodProperties CHOCOLATE_MILKSHAKE = new FoodProperties.Builder().nutrition(2).
+    public static final FoodProperties CHOCOLATE_MILKSHAKE = new FoodProperties.Builder().nutrition(6).
             saturationMod(0.5f).build();
 
     public static final FoodProperties BOCATA_LOMO_QUESO = new FoodProperties.Builder().nutrition(8).
@@ -46,10 +46,10 @@ public class ModFoods
     public static final FoodProperties DURUM = new FoodProperties.Builder().nutrition(10).
             saturationMod(1f).effect(() -> new MobEffectInstance(MobEffects.CONFUSION, 750), 0.5f).build();
 
-    public static final FoodProperties BURGUER = new FoodProperties.Builder().nutrition(7).
+    public static final FoodProperties BURGUER = new FoodProperties.Builder().nutrition(10).
             saturationMod(0.7f).build();
 
-    public static final FoodProperties FOOD_COMBINED = new FoodProperties.Builder().nutrition(5).
+    public static final FoodProperties FOOD_COMBINED = new FoodProperties.Builder().nutrition(8).
             saturationMod(0.5f).build();
 
 
